@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 1 rem  = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: beige;
+}
+
+.content {
+  overflow: auto;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  max-width: 60rem;
+  margin: 2rem auto 0;
+  font-size: 1.6rem;
+}
+
+.content__input {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #555;
+  margin: 1.25rem 0;
+}
+
+#txt-input {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1.2rem;
+  min-width: 100%;
+  height: 15vh;
+  border: 2px solid #999;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: box-shadow 0.2s;
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  -ms-transition: box-shadow 0.2s;
+  -o-transition: box-shadow 0.2s;
+}
+
+#txt-input:focus {
+  outline: none;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.404);
+}
+
+.btn {
+  cursor: pointer;
+  background-color: beige;
+  padding: 1.15rem 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.2s;
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  -ms-transition: box-shadow 0.2s;
+  -o-transition: box-shadow 0.2s;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+.content__output {
+  width: 100%;
+}
+
+#txt-output {
+  padding: 1.2rem;
+  min-width: 100%;
+  height: 16vh;
+  border: 2px solid #999;
+  border-radius: 4px;
+}
+
+.about {
+  background-color: beige;
+  position: fixed;
+  bottom: 0;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.about p {
+  text-align: justify;
+  line-height: 1.4;
+  max-width: 85%;
+}
